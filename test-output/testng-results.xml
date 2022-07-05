@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-05T04:30:50Z" name="Selenium GRID" finished-at="2022-07-05T04:31:26Z" duration-ms="36253">
+    <groups>
+    </groups>
+    <test started-at="2022-07-05T04:30:50Z" name="Run on CHROME" finished-at="2022-07-05T04:31:25Z" duration-ms="35192">
+      <class name="selenium.Level_00_Register_Login_Step_By_Step">
+        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium.Level_00_Register_Login_Step_By_Step@2002fc1d]" started-at="2022-07-05T04:30:50Z" name="beforeClass" finished-at="2022-07-05T04:31:07Z" duration-ms="16847" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[192.168.0.114]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6666]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="TC_01_Register()[pri:0, instance:selenium.Level_00_Register_Login_Step_By_Step@2002fc1d]" started-at="2022-07-05T04:31:07Z" name="TC_01_Register" finished-at="2022-07-05T04:31:18Z" duration-ms="11170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_Register -->
+        <test-method signature="TC_02_Login()[pri:0, instance:selenium.Level_00_Register_Login_Step_By_Step@2002fc1d]" started-at="2022-07-05T04:31:18Z" name="TC_02_Login" finished-at="2022-07-05T04:31:25Z" duration-ms="6937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_Login -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:selenium.Level_00_Register_Login_Step_By_Step@2002fc1d]" started-at="2022-07-05T04:31:25Z" name="afterClass" finished-at="2022-07-05T04:31:25Z" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- selenium.Level_00_Register_Login_Step_By_Step -->
+    </test> <!-- Run on CHROME -->
+    <test started-at="2022-07-05T04:30:50Z" name="Run on FIREFOX" finished-at="2022-07-05T04:31:26Z" duration-ms="36253">
+      <class name="selenium.Level_00_Register_Login_Step_By_Step">
+        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium.Level_00_Register_Login_Step_By_Step@ba2f4ec]" started-at="2022-07-05T04:30:50Z" name="beforeClass" finished-at="2022-07-05T04:31:07Z" duration-ms="16953" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[192.168.0.114]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6666]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="TC_01_Register()[pri:0, instance:selenium.Level_00_Register_Login_Step_By_Step@ba2f4ec]" started-at="2022-07-05T04:31:07Z" name="TC_01_Register" finished-at="2022-07-05T04:31:18Z" duration-ms="10607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_Register -->
+        <test-method signature="TC_02_Login()[pri:0, instance:selenium.Level_00_Register_Login_Step_By_Step@ba2f4ec]" started-at="2022-07-05T04:31:18Z" name="TC_02_Login" finished-at="2022-07-05T04:31:23Z" duration-ms="5754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_Login -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:selenium.Level_00_Register_Login_Step_By_Step@ba2f4ec]" started-at="2022-07-05T04:31:23Z" name="afterClass" finished-at="2022-07-05T04:31:26Z" duration-ms="2917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- selenium.Level_00_Register_Login_Step_By_Step -->
+    </test> <!-- Run on FIREFOX -->
+  </suite> <!-- Selenium GRID -->
+</testng-results>
